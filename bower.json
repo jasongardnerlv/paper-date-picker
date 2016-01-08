@@ -20,7 +20,7 @@
     "/tests/"
   ],
   "dependencies": {
-    "moment-element": "jasongardnerlv/moment-element#^1.1.0",
+    "moment-element": "jasongardnerlv/moment-element#master",
     "polymer": "Polymer/polymer#^1.1.0",
     "iron-icons": "PolymerElements/iron-icons#^1.0.0",
     "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
