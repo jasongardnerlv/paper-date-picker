@@ -1,4 +1,6 @@
-<style is="custom-style">
+const $_documentContainer = document.createElement('template');
+
+$_documentContainer.innerHTML = `<style is="custom-style">
 /* mixin definitions */
 :root {
   --paper-date-picker-dialog: {
@@ -16,9 +18,7 @@
     margin-bottom: -56px;
   };
 }
-</style>
-
-<dom-module id="paper-date-picker-dialog-style">
+</style><dom-module id="paper-date-picker-dialog-style">
   <template>
     <style>
       /* Application of mixins to local .paper-date-picker-dialog elements */
@@ -38,4 +38,6 @@
       }
     </style>
   </template>
-</dom-module>
+</dom-module>`;
+
+document.head.appendChild($_documentContainer.content);
